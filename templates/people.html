@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h1 style="padding-top:128px">{{people.Name}}</h1>
+
+    BirthPlace:
+    {{people.BirthPlace}}<br>
+    Surname:
+{{people.Surname}}<br>
+    PersonID:
+{{people.PersonID}}<br>
+    Gender:
+{{people.Gender}}<br>
+    IsProperName:
+{{people.IsProperName}}<br>
+    BirthYear:
+{{people.BirthYear}}<br>
+    DeathPlace:
+{{people.DeathPlace}}<br>
+    DeathYear:
+{{people.DeathYear}}<br>
+{% endblock %}

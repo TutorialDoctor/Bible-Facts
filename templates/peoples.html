@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block body %}
+  <h1>People</h1>
+<ul class="list-group">
+  {% for people in peoples%}
+    <li class="list-group-item"><a href="people/{{people.PersonID}}">{{people.Name}}</a></li>
+{%endfor%}
+  </ul>
+{% endblock %}
+

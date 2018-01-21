@@ -1,0 +1,67 @@
+{"BookID": "BookID", "NumOfChapters": "NumOfChapters", "BookName": "BookName", "BookDiv": "BookDiv", "OsisName": "OsisName", "ShortName": "ShortName"}
+{"BookID": "1", "NumOfChapters": "50", "BookName": "Genesis", "BookDiv": "Pentateuch", "OsisName": "Gen", "ShortName": "Ge"}
+{"BookID": "2", "NumOfChapters": "40", "BookName": "Exodus", "BookDiv": "Pentateuch", "OsisName": "Exo", "ShortName": "Ex"}
+{"BookID": "3", "NumOfChapters": "27", "BookName": "Leviticus", "BookDiv": "Pentateuch", "OsisName": "Lev", "ShortName": "Le"}
+{"BookID": "4", "NumOfChapters": "36", "BookName": "Numbers", "BookDiv": "Pentateuch", "OsisName": "Num", "ShortName": "Nu"}
+{"BookID": "5", "NumOfChapters": "34", "BookName": "Deuteronomy", "BookDiv": "Pentateuch", "OsisName": "Deu", "ShortName": "Dt"}
+{"BookID": "6", "NumOfChapters": "24", "BookName": "Joshua", "BookDiv": "Historical", "OsisName": "Jos", "ShortName": "Jos"}
+{"BookID": "7", "NumOfChapters": "21", "BookName": "Judges", "BookDiv": "Historical", "OsisName": "Jud", "ShortName": "Jdg"}
+{"BookID": "8", "NumOfChapters": "4", "BookName": "Ruth", "BookDiv": "Historical", "OsisName": "Rut", "ShortName": "Ru"}
+{"BookID": "9", "NumOfChapters": "31", "BookName": "1 Samuel", "BookDiv": "Historical", "OsisName": "1Sa", "ShortName": "1Sa"}
+{"BookID": "10", "NumOfChapters": "24", "BookName": "2 Samuel", "BookDiv": "Historical", "OsisName": "2Sa", "ShortName": "2Sa"}
+{"BookID": "11", "NumOfChapters": "22", "BookName": "1 Kings", "BookDiv": "Historical", "OsisName": "1Kg", "ShortName": "1Ki"}
+{"BookID": "12", "NumOfChapters": "25", "BookName": "2 Kings", "BookDiv": "Historical", "OsisName": "2Kg", "ShortName": "2Ki"}
+{"BookID": "13", "NumOfChapters": "29", "BookName": "1 Chronicles", "BookDiv": "Historical", "OsisName": "1Ch", "ShortName": "1Ch"}
+{"BookID": "14", "NumOfChapters": "36", "BookName": "2 Chronicles", "BookDiv": "Historical", "OsisName": "2Ch", "ShortName": "2Ch"}
+{"BookID": "15", "NumOfChapters": "10", "BookName": "Ezra", "BookDiv": "Historical", "OsisName": "Ezr", "ShortName": "Ezr"}
+{"BookID": "16", "NumOfChapters": "13", "BookName": "Nehemiah", "BookDiv": "Historical", "OsisName": "Neh", "ShortName": "Ne"}
+{"BookID": "17", "NumOfChapters": "10", "BookName": "Esther", "BookDiv": "Historical", "OsisName": "Est", "ShortName": "Es"}
+{"BookID": "18", "NumOfChapters": "42", "BookName": "Job", "BookDiv": "Poetry-Wisdom", "OsisName": "Job", "ShortName": "Job"}
+{"BookID": "19", "NumOfChapters": "150", "BookName": "Psalms", "BookDiv": "Poetry-Wisdom", "OsisName": "Ps.", "ShortName": "Ps"}
+{"BookID": "20", "NumOfChapters": "31", "BookName": "Proverbs", "BookDiv": "Poetry-Wisdom", "OsisName": "Pro", "ShortName": "Pr"}
+{"BookID": "21", "NumOfChapters": "12", "BookName": "Ecclesiastes", "BookDiv": "Poetry-Wisdom", "OsisName": "Ecc", "ShortName": "Ec"}
+{"BookID": "22", "NumOfChapters": "8", "BookName": "Song of Solomon", "BookDiv": "Poetry-Wisdom", "OsisName": "Son", "ShortName": "So"}
+{"BookID": "23", "NumOfChapters": "66", "BookName": "Isaiah", "BookDiv": "Major Prophets", "OsisName": "Isa", "ShortName": "Is"}
+{"BookID": "24", "NumOfChapters": "52", "BookName": "Jeremiah", "BookDiv": "Major Prophets", "OsisName": "Jer", "ShortName": "Je"}
+{"BookID": "25", "NumOfChapters": "5", "BookName": "Lamentations", "BookDiv": "Poetry-Wisdom", "OsisName": "Lam", "ShortName": "La"}
+{"BookID": "26", "NumOfChapters": "48", "BookName": "Ezekiel", "BookDiv": "Major Prophets", "OsisName": "Eze", "ShortName": "Eze"}
+{"BookID": "27", "NumOfChapters": "12", "BookName": "Daniel", "BookDiv": "Major Prophets", "OsisName": "Dan", "ShortName": "Da"}
+{"BookID": "28", "NumOfChapters": "14", "BookName": "Hosea", "BookDiv": "Minor Prophets", "OsisName": "Hos", "ShortName": "Ho"}
+{"BookID": "29", "NumOfChapters": "3", "BookName": "Joel", "BookDiv": "Minor Prophets", "OsisName": "Joe", "ShortName": "Joe"}
+{"BookID": "30", "NumOfChapters": "9", "BookName": "Amos", "BookDiv": "Minor Prophets", "OsisName": "Amo", "ShortName": "Am"}
+{"BookID": "31", "NumOfChapters": "1", "BookName": "Obadiah", "BookDiv": "Minor Prophets", "OsisName": "Oba", "ShortName": "Ob"}
+{"BookID": "32", "NumOfChapters": "4", "BookName": "Jonah", "BookDiv": "Minor Prophets", "OsisName": "Jon", "ShortName": "Jon"}
+{"BookID": "33", "NumOfChapters": "7", "BookName": "Micah", "BookDiv": "Minor Prophets", "OsisName": "Mic", "ShortName": "Mic"}
+{"BookID": "34", "NumOfChapters": "3", "BookName": "Nahum", "BookDiv": "Minor Prophets", "OsisName": "Nah", "ShortName": "Na"}
+{"BookID": "35", "NumOfChapters": "3", "BookName": "Habakkuk", "BookDiv": "Minor Prophets", "OsisName": "Hab", "ShortName": "Hab"}
+{"BookID": "36", "NumOfChapters": "3", "BookName": "Zephaniah", "BookDiv": "Minor Prophets", "OsisName": "Zep", "ShortName": "Zep"}
+{"BookID": "37", "NumOfChapters": "2", "BookName": "Haggai", "BookDiv": "Minor Prophets", "OsisName": "Hag", "ShortName": "Hag"}
+{"BookID": "38", "NumOfChapters": "14", "BookName": "Zechariah", "BookDiv": "Minor Prophets", "OsisName": "Zec", "ShortName": "Zec"}
+{"BookID": "39", "NumOfChapters": "4", "BookName": "Malachi", "BookDiv": "Minor Prophets", "OsisName": "Mal", "ShortName": "Mal"}
+{"BookID": "40", "NumOfChapters": "28", "BookName": "Matthew", "BookDiv": "Gospels", "OsisName": "Mat", "ShortName": "Mt"}
+{"BookID": "41", "NumOfChapters": "16", "BookName": "Mark", "BookDiv": "Gospels", "OsisName": "Mar", "ShortName": "Mk"}
+{"BookID": "42", "NumOfChapters": "24", "BookName": "Luke", "BookDiv": "Gospels", "OsisName": "Luk", "ShortName": "Lu"}
+{"BookID": "43", "NumOfChapters": "21", "BookName": "John", "BookDiv": "Gospels", "OsisName": "Joh", "ShortName": "Jn"}
+{"BookID": "44", "NumOfChapters": "28", "BookName": "Acts", "BookDiv": "Acts", "OsisName": "Act", "ShortName": "Ac"}
+{"BookID": "45", "NumOfChapters": "16", "BookName": "Romans", "BookDiv": "Pauline Epistles", "OsisName": "Rom", "ShortName": "Ro"}
+{"BookID": "46", "NumOfChapters": "16", "BookName": "1 Corinthians", "BookDiv": "Pauline Epistles", "OsisName": "1Co", "ShortName": "1Co"}
+{"BookID": "47", "NumOfChapters": "13", "BookName": "2 Corinthians", "BookDiv": "Pauline Epistles", "OsisName": "2Co", "ShortName": "2Co"}
+{"BookID": "48", "NumOfChapters": "6", "BookName": "Galatians", "BookDiv": "Pauline Epistles", "OsisName": "Gal", "ShortName": "Ga"}
+{"BookID": "49", "NumOfChapters": "6", "BookName": "Ephesians", "BookDiv": "Pauline Epistles", "OsisName": "Eph", "ShortName": "Eph"}
+{"BookID": "50", "NumOfChapters": "4", "BookName": "Philippians", "BookDiv": "Pauline Epistles", "OsisName": "Phi", "ShortName": "Php"}
+{"BookID": "51", "NumOfChapters": "4", "BookName": "Colossians", "BookDiv": "Pauline Epistles", "OsisName": "Col", "ShortName": "Col"}
+{"BookID": "52", "NumOfChapters": "5", "BookName": "1 Thessalonians", "BookDiv": "Pauline Epistles", "OsisName": "1Th", "ShortName": "1Th"}
+{"BookID": "53", "NumOfChapters": "3", "BookName": "2 Thessalonians", "BookDiv": "Pauline Epistles", "OsisName": "2Th", "ShortName": "2Th"}
+{"BookID": "54", "NumOfChapters": "6", "BookName": "1 Timothy", "BookDiv": "Pauline Epistles", "OsisName": "1Ti", "ShortName": "1Ti"}
+{"BookID": "55", "NumOfChapters": "4", "BookName": "2 Timothy", "BookDiv": "Pauline Epistles", "OsisName": "2Ti", "ShortName": "2Ti"}
+{"BookID": "56", "NumOfChapters": "3", "BookName": "Titus", "BookDiv": "Pauline Epistles", "OsisName": "Tit", "ShortName": "Tit"}
+{"BookID": "57", "NumOfChapters": "1", "BookName": "Philemon", "BookDiv": "Pauline Epistles", "OsisName": "Phl", "ShortName": "Phm"}
+{"BookID": "58", "NumOfChapters": "13", "BookName": "Hebrews", "BookDiv": "Pauline Epistles", "OsisName": "Heb", "ShortName": "Heb"}
+{"BookID": "59", "NumOfChapters": "5", "BookName": "James", "BookDiv": "General Epistles", "OsisName": "Jas", "ShortName": "Jas"}
+{"BookID": "60", "NumOfChapters": "5", "BookName": "1 Peter", "BookDiv": "General Epistles", "OsisName": "1Pe", "ShortName": "1Pe"}
+{"BookID": "61", "NumOfChapters": "3", "BookName": "2 Peter", "BookDiv": "General Epistles", "OsisName": "2Pe", "ShortName": "2Pe"}
+{"BookID": "62", "NumOfChapters": "5", "BookName": "1 John", "BookDiv": "General Epistles", "OsisName": "1Jo", "ShortName": "1Jn"}
+{"BookID": "63", "NumOfChapters": "1", "BookName": "2 John", "BookDiv": "General Epistles", "OsisName": "2Jo", "ShortName": "2Jn"}
+{"BookID": "64", "NumOfChapters": "1", "BookName": "3 John", "BookDiv": "General Epistles", "OsisName": "3Jo", "ShortName": "3Jn"}
+{"BookID": "65", "NumOfChapters": "1", "BookName": "Jude", "BookDiv": "General Epistles", "OsisName": "Jud", "ShortName": "Jud"}
+{"BookID": "66", "NumOfChapters": "22", "BookName": "Revelation", "BookDiv": "Revelation", "OsisName": "Rev", "ShortName": "Re"}
