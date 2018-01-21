@@ -2,13 +2,10 @@ import sqlite3
 from flask import Flask, render_template, request, g
 from data import Articles,Books,Peoples
 from verses import Verses
+
+        
 app = Flask(__name__)
 
-"""
-{%for verse in verses %}
-{{verse[0].VerseID:}}<br><br>
-{%endfor%}-->
-"""
 
 Articles = Articles()
 Books = Books()
@@ -23,6 +20,11 @@ def index():
 def about():
   return render_template('about.html')
 
+@app.route('/videos')
+def videos():
+  return render_template('videos.html')
+
+
 @app.route('/articles')
 def articles():
   return render_template('articles.html',articles=Articles)
@@ -30,6 +32,10 @@ def articles():
 @app.route('/article/<string:id>/')
 def article(id):
   return render_template('article.html',id=id,articles=Articles)
+
+@app.route('/article/<string:id>/show/')
+def show(id):
+  return render_template('show.html',id=id,aricles=Articlesf)
 
 @app.route('/books')
 def books():

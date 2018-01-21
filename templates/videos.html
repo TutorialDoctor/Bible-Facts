@@ -1,0 +1,113 @@
+{% extends 'layout.html' %}
+{% block body %}
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+
+<div class="container">
+    <!--START MODAL-->
+<div class="modal" id="mymodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Le Yodio</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">x</button></div>
+        <div class="modal-body">
+          <p>lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Qr_ebaWAxy8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+        </div>
+        <div class="modal-footer">
+        <a href="" data-dismiss="modal" class="btn btn-default">Close</a>
+      </div>
+    </div>
+  </div></div>
+<!--END MODAL-->
+    
+    
+    <div align="center" class="jumbotron">
+      <div align="center" class="container">
+      <h1>WATCH and<p>PLAY</p></h1>
+      <i> Tunde suscipit accusamus officiis aperiam dicta in a mollitia animi</i><br>
+      <a href="views/form.html" class="btn btn-primary">Sign Up Now!</a>
+      <a id="watch" href="enter.html" data-toggle="modal" data-target="#mymodal" class="btn btn-danger">WATCH VIDEO</a>
+    </div>
+      <!--
+      <div data-include="states"></div>-->
+    </div>
+    
+    <div align="center" class="container">
+      <div class="row" id="div1">
+        
+        <div class="col-md-3">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/o_cVUc0O5Dk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p>Na aliqua enim </p>
+          <p id="subtext">nulla rem a temporibus</p></div>
+        
+        <div class="col-md-3">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Gur8ccqrQ9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p>Na aliqua enim </p>
+          <p id="subtext">nulla rem a temporibus</p></div>
+        
+        <div class="col-md-3">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/4J5JkWC4hYk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p>Na aliqua enim </p>
+          <p id="subtext">nulla rem a temporibus</p>
+      </div>
+          
+          <div class="col-md-3">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bcg5rN-jlaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p>Na aliqua enim </p>
+          <p id="subtext">nulla rem a temporibus</p>
+      </div>
+        
+        <div class="col-md-3">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/eEIJa5gABNU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p>Na aliqua enim </p>
+          <p id="subtext">nulla rem a temporibus</p>
+      </div>
+        
+        <div class="col-md-3">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/avShZS2GJMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p>Na aliqua enim </p>
+          <p id="subtext">nulla rem a temporibus</p>
+      </div>
+
+      
+      <div align="center" class="container">
+        <div class="row" id="div2">
+          <div class="col mlb">
+            <h3 id="mlbtitle"><span>MHV</span> <span>PERFERENDIS</span></h3>
+            <p id="mlbtext">
+        lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim maxime labore adipisci sunt quisquam odio similique corporis hic atque ad et aspernatur facere rerum voluptatem nisi modi culpa perferendis laudantium eos odit velit debitis aut repellat fugiat ex necessitatibus aliquam eligendi quo cum sit quod n</p>
+            </div>
+          <div class="col">
+
+        <img src="https://www.anthonynotes.com/wp-content/uploads/2016/02/prince_of_egypt.jpg">
+            </div>
+        </div>
+        
+        <div class="row" id="div4">
+          <div class="col">
+           <img  src="https://i.ytimg.com/vi/JW1zpOujbCk/maxresdefault.jpg" alt="Cinque Terre">
+          </div>
+          <div class="col">
+            <h2 id="protitle"><span>URO</span> <span>PRAESENTIUM</span></h2>
+            <p id="protext">perspiciatis eaque neque tempora minus praesentium provident earum blanditiis ipsum nobis deleniti qui cumque soluta dolor sed dolores voluptatibus nulla asperiores sequ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div align="center" class="footer">
+<footer>
+  <div class="container text-center">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-google-plus"></i></a>
+    <a href="#"><i class="fa fa-skype"></i></a>
+  </div>
+   <br><br>
+       <!--<a href="mailto:donotactuallyemailanythingtothisaddress@gmail.com" class="btn btn-danger">Contact Us</a>-->
+      <a href="views/contact.html" class="btn btn-danger">Contact Us</a>
+      <a href="enter.html" class="btn btn-primary">Your Mission</a>
+      </div>
+</footer>
+{% endblock %}

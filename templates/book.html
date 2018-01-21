@@ -1,10 +1,12 @@
 {% extends 'layout.html' %}
 {% block body %}
-<h1 style="padding-top:128px">{{BookID}}</h1>
-{% for verse in verses %}
-  {% if (verse.BookID|int() == BookID|int()) %}
-    {{verse.VerseNum}}:{{verse.VerseText}}<br>
-  {%endif%}
-{% endfor %}
+
+<h1>{{books[BookID|int()-1].BookName}}</h1>
+<i>Book{{BookID}}</i><br><br>
+  {% for verse in verses %}
+    {% if (verse.BookID|int() == BookID|int()) %}
+      {{verse.Chapter}}:{{verse.VerseNum}}:{{verse.VerseText}}<br>
+    {%endif%}
+  {% endfor %}
 
 {% endblock %}

@@ -1,0 +1,127 @@
+.container{
+}
+
+.jumbotron{
+  background-color: #242424 !important;
+  //border: 1px solid red !important;
+  width:100% !important;
+  height:100% !important;
+  background: #000 url(images/D5KsnRt.png) no-repeat center center;
+  opacity: .9;
+  background-size: 100% 50em;
+  position: relative;
+}
+.watch{
+  border: 1px solid white
+}
+
+h1, p {
+  color:white !important;
+}
+
+h1 > p{
+  color:#f5c16c !important;
+}
+
+body{
+  background-color: #151515 !important;
+}
+
+.col{
+  //border: 1px solid red;
+}
+
+.container:nth-child(2){
+  padding-top: 32px !important;
+  color:#bababa;
+}
+
+#mlbtext, #mlbtitle{
+  text-align: left
+}
+
+#mlbtitle > span{
+  color:#f5c16c
+}
+
+#mlbtitle > span + span{
+  color:#bc844d
+}
+
+.row:nth-child(2){
+  padding-top: 32px !important;
+  color:#044da1;
+}
+
+.row:nth-child(2) > a{
+  border: 1px solid red;
+  color:red;
+}
+
+#div2{
+  padding-top: 32px;
+}
+
+#div3{
+  padding-top: 64px !important;
+}
+
+#div4{
+  padding-top: 64px;
+}
+
+#protext, #protitle{
+  text-align: left
+}
+
+#protitle > span{
+  color:#f5c16c
+}
+
+#protitle > span + span{
+  color:#bc844d
+}
+
+.footer{
+  margin-top: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px !important;
+  background-color: #d6d6d6;
+  height: 100%;
+  color:black;
+}
+
+#subtext{
+  font-size: 10px;
+}
+
+.contact{
+  background-color: #212121;
+  color: white;
+}
+
+.footer {
+  background: #061D25;
+  padding: 64px 0;
+}
+.footer a {
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;}
+
+.img-responsive{
+  padding:1px;
+  margin:10px;
+  width: 100px;
+}
+
+img{
+  width: 100%;
+}

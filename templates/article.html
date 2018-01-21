@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% block body %}
-<h1 style="padding-top:128px">{{id}}</h1>
+<h1>{{id}}</h1>
   {% for article in articles%}
-    <li class="list-group-item"><a href="article/{{article.id}}">{{articles[id|int()-1]}}</a></li>
+    <li class="list-group-item"><a href="article/{{article.id}}/show">{{articles[id|int()-1]}}</a></li>
 {%endfor%}
 {% endblock %}
